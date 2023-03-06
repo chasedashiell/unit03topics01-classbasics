@@ -21,6 +21,7 @@ public class TimeV1 {
         return seconds;
     }
 
+    // TODO: again, need to worry about zero-padding the hours/minutes/seconds
     public String toString(){
         return getHours() + ":" + getMinutes() + ":" + getSeconds();
     }
