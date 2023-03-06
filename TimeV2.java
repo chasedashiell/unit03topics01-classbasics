@@ -1,5 +1,6 @@
 public class TimeV2 {
 
+    // TODO: your code works and uses the same philosophy as the Student example I did in class. However, the README asked that your one instance variable represented the number of seconds since midnight (which yours doesn't currently do). Try re-coding this class to use that representation; I think it'd be good practice.
     int allInOne;
 
     public TimeV2(int timeHours, int timeMinutes, int timeseconds){
