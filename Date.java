@@ -21,6 +21,7 @@ public class Date {
         return year;
     }
 
+    // TODO: doesn't pad the month, day, or year with zeros to ensure the date string is always the same length
     public String toString(){
         return getMonth() + "/" + getDay() + "/" + getYear();
     }
